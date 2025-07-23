@@ -15,7 +15,23 @@
   "release": {
     "projectsRelationship": "independent",
     "changelog": {
-      "projectChangelogs": true
+      "projectChangelogs": {
+        "createRelease": "github",
+        "renderOptions": {
+          "authors": false,
+          "applyUsernameToAuthors": false,
+          "commitReferences": true,
+          "versionTitleDate": true
+        }
+      }
+    },
+    "git": {
+      "push": true,
+      "tag": true,
+      "commit": true,
+      "commitMessage": "chore(release): publish {version}",
+      "tagMessage": "chore(release): {version}",
+      "tagPrefix": ""
     },
     "versionPlans": true,
     "groups": {
