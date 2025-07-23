@@ -25,11 +25,6 @@
         }
       }
     },
-    "git": {
-      "push": false,
-      "tag": true,
-      "commit": true
-    },
     "versionPlans": true,
     "groups": {
       "__default__": {
