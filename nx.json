@@ -26,12 +26,8 @@
       }
     },
     "git": {
-      "push": true,
       "tag": true,
-      "commit": true,
-      "commitMessage": "chore(release): publish {version}",
-      "tagMessage": "chore(release): {version}",
-      "tagPrefix": ""
+      "commit": true
     },
     "versionPlans": true,
     "groups": {
